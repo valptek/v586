@@ -1,0 +1,17 @@
+core_rtl:
+contains the RTL of the core with AXI4 master interface : v586.v 
+
+soc_rtl:
+contains peripherals for soc demo, mainly interrupt/timers/uart and spi interface
+
+doc:
+useful documentation
+
+gate_rtl:
+basic blocks used in some core or soc rtl
+
+board_specific_files:
+Will contain different top RTL for various board and
+also the XCI files to generate the xilinx IPs like the AXI4 interconnect.
+It will contain files for memory interface MIG DDDR2/3 or PSRAM rtl interfaces
+for each board.
