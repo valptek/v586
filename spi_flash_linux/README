@@ -1,0 +1,10 @@
+for every board nexys4/4ddr/esa11
+
+the spi flash must containt 3 files
+
+offset 0  : bit file
+offset 0x400000 : vmlinux.raw
+offset 0x800000 : rootfs.cpio.gz
+
+otherwise the system won't boot
+
