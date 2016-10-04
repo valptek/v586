@@ -41,7 +41,7 @@ assign A0 = {axi_AR[9:2],2'b00};
 
 initial 
 begin
-$readmemh("/home/leo/cpu/vault.memo/test_esa2/boot.mem" , Mem , 0);
+$readmemh("boot.mem" , Mem , 0);
 end
 
 // Read process
